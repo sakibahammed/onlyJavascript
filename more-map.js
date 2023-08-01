@@ -23,7 +23,18 @@ const products = [
 ];
 const product = products.map(product => product.name);
 
-console.log(product)
+// console.log(product)
 products.map(product=> product.price)
-console.log(products.map(product=>product))
+// console.log(products.map(product=>product))
 
+// trying forEach ; 
+
+
+// products.forEach(product=>console.log(product.price))
+
+// products.forEach(product=>console.log(product.name));
+const pro = products.forEach(product=>product.name);
+console.log(pro);
+
+
+// reason that dont work because  ,  map returns but forEach dont. it simply runs the loop and finish
