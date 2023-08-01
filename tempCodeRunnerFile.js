@@ -1,5 +1,11 @@
+let priceOfStrawberryJam  = [230 , 122,45,12,121];
 
-let numbers = [1,3,4,5];
-for(let i = 0;i<numbers.length;i++){
-    console.log(numbers[i])
-}
+priceOfStrawberryJam[1] = 233;
+// console.log(priceOfStrawberryJam)
+
+//lets get the price of strawberry jam ;
+
+console.log(priceOfStrawberryJam[0]);
+
+
+console.log(priceOfStrawberryJam.indexOf(233));
